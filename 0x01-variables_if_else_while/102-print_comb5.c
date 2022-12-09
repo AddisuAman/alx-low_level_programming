@@ -37,6 +37,7 @@ int main(void)
 				putchar(d + '0');
 
 				if (!(a == 9 && b == 8))
+
 				{
 					putchar(44);
 					putchar(32);
