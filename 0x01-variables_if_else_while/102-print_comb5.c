@@ -4,7 +4,7 @@
  * Discription: Print all possible combination of two two-digit numbers
  * Numbers should range rangr from 0 to 99
  * The two numbers should be separated by space
- * All numbers should be printed with two digits. 1 should be printed as 01
+ * All numbers should be printed with two digit. 1 should be printed as 01
  * Combination of numbers must be separated by a comma followed by a comma space
  * Combination of numbers should be printed in ascending order
  * `00 01` and `01 00` are considered as the same combination
