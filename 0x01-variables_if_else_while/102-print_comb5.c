@@ -23,12 +23,12 @@ int main(void)
 		a = i / 10; /* doubles fnum */
 		b = i % 10; /* singles fnum */
 
-		for (j = 0; j < 100; j++)
+	for (j = 0; j < 100; j++)
 		{
 			c = j / 10; /* doibles snum */
 			d = j % 10; /* singles snum */
 
-			if (a < c || (a == c && b < d))
+	if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
@@ -36,7 +36,7 @@ int main(void)
 				putchar(c + '0');
 				putchar(d + '0');
 
-				if (!(a == 9 && b == 8))
+	if (!(a == 9 && b == 8))
 
 				{
 					putchar(44);
