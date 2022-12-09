@@ -24,28 +24,28 @@ int main(void)
 		b = i % 10; /* singles fnum */
 
 	for (j = 0; j < 100; j++)
-		{
-			c = j / 10; /* doibles snum */
-			d = j % 10; /* singles snum */
+	{
+		c = j / 10; /* doibles snum */
+		d = j % 10; /* singles snum */
 
 	if (a < c || (a == c && b < d))
-			{
-				putchar(a + '0');
-				putchar(b + '0');
-				putchar(32);
-				putchar(c + '0');
-				putchar(d + '0');
+	{
+		putchar(a + '0');
+		putchar(b + '0');
+		putchar(32);
+		putchar(c + '0');
+		putchar(d + '0');
 
 	if (!(a == 9 && b == 8))
 
-				{
-					putchar(44);
-					putchar(32);
-				}
-			}
-		}
+	{
+ 		putchar(44);
+		putchar(32);
 	}
-	putchar(10);
+	}
+	}
+	}
+		putchar(10);
 
-	return (0);
+return (0);
 }
