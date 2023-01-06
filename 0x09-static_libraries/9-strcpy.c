@@ -10,7 +10,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	intf i = -1;
+	int i = -1;
 
 	do {
 		i++;
