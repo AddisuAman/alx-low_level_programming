@@ -23,7 +23,9 @@ int main(int argc, char *argv[])
 	}
 
 	return (0);
-}#include <stdio.h>
+}
+
+#include <stdio.h>
 #include "main.h"
 
 /**
